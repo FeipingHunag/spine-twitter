@@ -16,8 +16,3 @@ end
 
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
-
-group :linux do
-  gem 'execjs'
-  gem 'therubyracer'
-end
