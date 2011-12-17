@@ -13,8 +13,8 @@ class User < ActiveRecord::Base
     twitter_client.update(message)
   end
   
-  def home_timeline
-    twitter_client.home_timeline
+  def home_timeline(options = {})
+    twitter_client.home_timeline(options)
   end
   
   protected

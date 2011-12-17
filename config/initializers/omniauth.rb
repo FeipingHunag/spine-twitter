@@ -1,5 +1,5 @@
 Rails.application.config.middleware.use OmniAuth::Builder do  
-  provider :twitter,'BTmWs8X7YdW7KJJDx03vA','olvIKHWDNfn2aCH2JPOeIYoyvsIXlnRMBsQcpAIM' , :sign_in => true
+  provider :twitter,'BTmWs8X7YdW7KJJDx03vA','olvIKHWDNfn2aCH2JPOeIYoyvsIXlnRMBsQcpAIM' 
 end
 
 Twitter.configure do |config|

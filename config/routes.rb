@@ -1,7 +1,8 @@
 SpineTwitter::Application.routes.draw do
   
-  resources :users do
+  resources :statuses do
     collection do
+      get 'home_timeline'
     end  
   end
 
